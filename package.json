@@ -1,0 +1,49 @@
+{
+  "name": "insert-css",
+  "version": "1.0.0",
+  "description": "insert a string of css into the <head>",
+  "main": "index.js",
+  "repository": "git@github.com:zch233/insert-css.git",
+  "author": "zhangchao <529743595@qq.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "browserify test.js | tape-run",
+    "example": "budo example.js"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "budo": "^8.3.0",
+    "computed-style": "^0.3.0",
+    "dom-event": "^1.0.0",
+    "tape": "^4.6.0",
+    "tape-run": "^2.1.4"
+  },
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/20..latest",
+      "firefox/10..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  },
+  "homepage": "https://github.com:zch233/insert-css",
+  "keywords": [
+    "css",
+    "insert",
+    "dom",
+    "browser",
+    "browserify",
+    "inject",
+    "styles",
+    "stylesheet",
+    "style",
+    "html",
+    "head",
+    "link"
+  ]
+}
